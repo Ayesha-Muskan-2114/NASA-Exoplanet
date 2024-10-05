@@ -5,3 +5,52 @@ body {
   font-family: sans-serif;
   background-image: url(https://img.freepik.com/premium-photo/night-sky-stars-galaxies-sky-dusk_494741-58778.jpg);
 }
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px solid white;
+  overflow: hidden;
+  background-color: #000000;
+  
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px solid white;
+  
+}
+
+.card-content {
+  padding: 15px;
+  border-radius: 20px solid white;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card{
+  transition: transform 0.3s ease;
+  
+}
+
+.card:hover{
+  transform: translate(-100px);
+}
