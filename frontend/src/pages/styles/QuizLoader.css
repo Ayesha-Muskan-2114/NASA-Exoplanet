@@ -1,0 +1,13 @@
+.loader-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 400px auto;
+}
+  
+.loader{
+background-color: white;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+}
