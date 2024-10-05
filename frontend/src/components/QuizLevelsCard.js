@@ -11,7 +11,7 @@ export default function QuizLevelsCard(){
     const levels = ["elementary", "middle school", "high school"];
 
     useEffect(() => {
-        console.log(level);
+        console.log("level", level);
     }, [level]);
 
     return <div className= "levels-container">

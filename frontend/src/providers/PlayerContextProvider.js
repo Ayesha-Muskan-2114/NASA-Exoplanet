@@ -7,9 +7,10 @@ export default function PlayerContextProvider({children}){
     const [ level, setLevel ] = useState(null);
     const score = useRef(0);
 
-    useEffect(() => {
-        
-    }, []);
+    console.log(level, "provider");
 
-    return <PlayerContext.Provider value= { {level, setLevel, guess, setGuess, score} }><Outlet/></PlayerContext.Provider>
+    return <PlayerContext.Provider value= { {level, setLevel, guess, setGuess, score} }>
+        {children}
+        <Outlet/>
+    </PlayerContext.Provider>
 }

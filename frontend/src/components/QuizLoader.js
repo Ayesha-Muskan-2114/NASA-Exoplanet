@@ -18,7 +18,7 @@ const loaderContainerVariants = {
 
 const loaderVariants = {
     visible: (i) => ({
-        y: [-20, 0],
+        y: [-10, 0],
         opacity: [0.5, 1],
         transition: {
             repeat: Infinity,
@@ -49,13 +49,13 @@ export default function QuizLoader(){
             custom = {i} 
             className= "loader"     
         ></motion.div>) }
-        <motion.div className= "loader"
+        {/* <motion.div className= "loader"
             variants= {testVariants}
             initial= "hidden"
             animate= "visible"
             transition= {{ repeat: Infinity, repeatType: "mirror", ease: "easeInOut", duration: 1 }}
         >
-        </motion.div>
+        </motion.div> */}
     </motion.div>
 }
     

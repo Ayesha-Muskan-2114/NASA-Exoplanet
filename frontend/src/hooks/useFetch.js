@@ -5,6 +5,7 @@ export default function useFetch(){
 
     const fetchData = async (endpoint, signal, options) => {
         try{
+            setError(false);
             setLoading(true);
             const response = await fetch(endpoint, {signal}, options);
             const result =  await response.json();
@@ -14,7 +15,7 @@ export default function useFetch(){
             throw new Error(result);
         }catch(error){
             console.log("error", error);
-            setError({error});
+            setError(error);
         }
         finally{
             setLoading(false);
