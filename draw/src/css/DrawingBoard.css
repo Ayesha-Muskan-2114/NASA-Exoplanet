@@ -1,0 +1,44 @@
+.drawing-container {
+  position: relative;
+}
+
+canvas {
+  border: 2px solid #000;
+  background-color: #fff;
+  cursor: crosshair;
+}
+
+.controls {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.selected {
+  background-color: #28a745;
+}
+
+input[type="color"] {
+  margin-left: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  margin: 0 10px;
+}

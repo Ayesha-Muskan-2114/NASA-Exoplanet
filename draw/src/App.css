@@ -1,0 +1,19 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background-image:url("https://th.bing.com/th/id/R.26f265cc0b5910c40020a3ee27f46380?rik=TYtb0bnfQ6LTCQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-PwtRgPjvSKA%2fUD9do8JlAUI%2fAAAAAAAAIoU%2f1e9O1Ii3WCw%2fs1600%2fOuter%2bSpace%2bWallpapers%2b2.jpg&ehk=ZDg%2bkfiCU1AHZCDdw4AkD4G8pTOceaUYxOIYZKkccvQ%3d&risl=&pid=ImgRaw&r=0")
+
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color:azure
+}
