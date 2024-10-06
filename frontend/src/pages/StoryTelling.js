@@ -63,7 +63,7 @@ function StoryTelling() {
       
       <section className="main-content">
         <div className="intro">
-          <h2>How Scientists Discover New Worlds?</h2>
+          <h2>How Scientists Discover New Worlds</h2>
           <p>Join us as we uncover the groundbreaking stories of scientists who have revealed the mysteries of exoplanets!</p>
         </div>
 
