@@ -78,7 +78,25 @@ p {
 }
 
 .searchbar{
+  font-family: 'aeonik';
   font-weight: bold;
-  border: 1px solid green;
-  background-color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 2em;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 20px 1em;
+}
+
+.searchbar:focus{
+  outline: 1px solid rgb(77, 83, 246);
+}
+
+.research-challenge{
+  margin-bottom: 100px;
+}
+
+.research-challenge a{
+  font-size: 1.2em;
+  color: rgb(77, 116, 246);
 }

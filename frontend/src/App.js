@@ -9,6 +9,8 @@ import { AnimatePresence } from "framer-motion";
 import './App.css';
 import StoryTelling from "./pages/StoryTelling.js";
 import Draw from "./pages/Draw.js";
+import GamePage from "./pages/GamePage.js";
+import Resource from "./pages/Resource.js";
 
 function App() {
     const location = useLocation();
@@ -19,7 +21,9 @@ function App() {
             <Route path= "/" element= { <Home/> } />
             <Route path= "/storytelling" element= { <StoryTelling/> } />
             <Route path= "/draw" element= { <Draw/> } />
-            <Route path= "/quiz/" element= { <PlayerContextProvider/> }>
+            <Route path= "/game" element= { <GamePage/> } />
+            <Route path= "/quiz/" element= { <PlayerContextProvider/> } />
+            <Route path= "/resources/" element= { <Resource/> } >
                 <Route path= "start" element= { <StartQuiz/> } />
                 <Route path= "levels" element= { <QuizLevels/> } />
                 <Route path= "play" element= { <Quiz/> } />

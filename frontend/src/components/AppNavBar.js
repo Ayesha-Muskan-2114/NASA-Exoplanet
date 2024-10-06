@@ -22,6 +22,10 @@ const links = [
     value: "Draw",
     link: "/draw"
   },
+  {
+    value: "Resources",
+    link: "/resources"
+  }
 ];
 
 export default function AppNavbar() {
