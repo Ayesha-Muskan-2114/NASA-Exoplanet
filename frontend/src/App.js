@@ -22,8 +22,8 @@ function App() {
             <Route path= "/storytelling" element= { <StoryTelling/> } />
             <Route path= "/draw" element= { <Draw/> } />
             <Route path= "/game" element= { <GamePage/> } />
-            <Route path= "/quiz/" element= { <PlayerContextProvider/> } />
-            <Route path= "/resources/" element= { <Resource/> } >
+            <Route path= "/resources/" element= { <Resource/> } />
+            <Route path= "/quiz/" element= { <PlayerContextProvider/> } >
                 <Route path= "start" element= { <StartQuiz/> } />
                 <Route path= "levels" element= { <QuizLevels/> } />
                 <Route path= "play" element= { <Quiz/> } />

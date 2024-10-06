@@ -1,4 +1,5 @@
 .quiz-levels{
+    margin-top: 100px;
     height: 100vh;
     width: 100vw;
     background-color: black;
@@ -45,7 +46,7 @@
     padding: 10px;
     padding-left: 20px;
     color: rgb(163, 161, 161);
-    background-color: rgba(204, 204, 204, 0.046);
+    background-color: rgba(204, 204, 204, 0.269);
 }
 
 .arrow-back:hover{
