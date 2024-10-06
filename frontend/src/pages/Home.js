@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import CardList from "./CardList";
-import SearchBox from "./SearchBox";
-import { exoplanets } from './exoplanets';
-import "./index.css";
+import CardList from "../components/CardList";
+import SearchBox from "../components/SearchBox";
+import { exoplanets } from '../components/exoplanets';
+import "./styles/Home.css";
 
-class App extends Component {
+class Home extends Component {
     constructor() {
         super();
         this.state = {
@@ -61,4 +61,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Home;

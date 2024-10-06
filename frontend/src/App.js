@@ -1,5 +1,6 @@
 import StartQuiz from "./pages/StartQuiz";
 import QuizLevels from './pages/QuizLevels';
+import Home from "./pages/Home.js";
 import Quiz from "./components/Quiz";
 import PlayerContextProvider from './providers/PlayerContextProvider';
 import { Routes, Route, useLocation } from "react-router-dom";
@@ -12,6 +13,7 @@ function App() {
     return (
         
             <Routes>
+                <Route path= "/" element= { <Home/> } />
                 <Route path= "/quiz/" element= { <PlayerContextProvider/> }>
                     <Route path= "start" element= { <StartQuiz/> } />
                     <Route path= "levels" element= { <QuizLevels/> } />
