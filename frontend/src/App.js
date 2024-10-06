@@ -2,6 +2,7 @@ import StartQuiz from "./pages/StartQuiz";
 import QuizLevels from './pages/QuizLevels';
 import Home from "./pages/Home.js";
 import Quiz from "./components/Quiz";
+import AppNavBar from "./components/AppNavBar.js";
 import PlayerContextProvider from './providers/PlayerContextProvider';
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
@@ -11,18 +12,18 @@ import StoryTelling from "./pages/StoryTelling.js";
 function App() {
     const location = useLocation();
 
-    return (
-        
-            <Routes>
-                <Route path= "/" element= { <Home/> } />
-                <Route path= "/storytelling" element= { <StoryTelling/> } />
-                <Route path= "/quiz/" element= { <PlayerContextProvider/> }>
-                    <Route path= "start" element= { <StartQuiz/> } />
-                    <Route path= "levels" element= { <QuizLevels/> } />
-                    <Route path= "play" element= { <Quiz/> } />
-                </Route>
-            </Routes>
-    );
+    return (<>
+        <AppNavBar/>
+        <Routes>
+            <Route path= "/" element= { <Home/> } />
+            <Route path= "/storytelling" element= { <StoryTelling/> } />
+            <Route path= "/quiz/" element= { <PlayerContextProvider/> }>
+                <Route path= "start" element= { <StartQuiz/> } />
+                <Route path= "levels" element= { <QuizLevels/> } />
+                <Route path= "play" element= { <Quiz/> } />
+            </Route>
+    </Routes>
+    </> );
 }
 
 export default App;

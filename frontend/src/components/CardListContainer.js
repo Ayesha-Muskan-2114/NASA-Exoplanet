@@ -8,7 +8,7 @@ const setAsRef = (el, ...refs) => {
 
 export default function CardListContainer({ cardList, searchfield }) {
     const [done, setDone] = useState(false);
-    const [speed, setSpeed] = useCycle(120, 300);
+    const [speed, setSpeed] = useCycle(120, 500);
     const x = useMotionValue(0);
     const widthRef = useRef();
 

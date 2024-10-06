@@ -57,11 +57,6 @@ function StoryTelling() {
       {/* Header */}
       <header className="header">
         <h1>Discover Exoplanets with Scientists</h1>
-        <nav className="navbar">
-          <ul>
-            <li>Home</li>
-          </ul>
-        </nav>
       </header>
 
       
