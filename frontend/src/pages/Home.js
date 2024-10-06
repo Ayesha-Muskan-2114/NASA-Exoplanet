@@ -34,7 +34,7 @@ class Home extends Component {
                     <h4>Studying exoplanets helps us understand more about the universe and our place in it. By examining these distant worlds, scientists can learn about planet formation, the potential for life on other planets, and the variety of planetary systems that exist. Exoplanet research can also enhance our knowledge of Earth and the conditions that make it unique.</h4>
                 </div>
                 <SearchBox searchChange={this.onSearchChange} />
-                <CardListContainer cardList= { <CardList exoplanets={filteredexoplanets} /> } />
+                <CardListContainer searchfield={this.state.searchfield} cardList= { <CardList exoplanets={filteredexoplanets} /> } />
         
 
                 {/* Research Challenge Section */}
