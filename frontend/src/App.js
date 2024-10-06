@@ -6,6 +6,7 @@ import PlayerContextProvider from './providers/PlayerContextProvider';
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import './App.css';
+import StoryTelling from "./pages/StoryTelling.js";
 
 function App() {
     const location = useLocation();
@@ -14,6 +15,7 @@ function App() {
         
             <Routes>
                 <Route path= "/" element= { <Home/> } />
+                <Route path= "/storytelling" element= { <StoryTelling/> } />
                 <Route path= "/quiz/" element= { <PlayerContextProvider/> }>
                     <Route path= "start" element= { <StartQuiz/> } />
                     <Route path= "levels" element= { <QuizLevels/> } />

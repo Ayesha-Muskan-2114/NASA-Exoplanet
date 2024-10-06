@@ -1,14 +1,25 @@
-body {
+.tc {
+  min-height: 100vh;
+  padding: 20px;
   color: aliceblue;
+  text-align: center;
   margin:0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "aeonik", sans-serif;
   background-image: url(https://img.freepik.com/premium-photo/night-sky-stars-galaxies-sky-dusk_494741-58778.jpg);
+}
+
+.tc h1{
+  margin-top: 2em;
+  font-size: 5em;
+}
+
+.tl{
+  padding: 40px;
 }
 
 .card-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
 }
@@ -52,5 +63,22 @@ p {
 }
 
 .card:hover{
-  transform: translate(-100px);
+  transform: scale(1.2);
+}
+
+.card-list-wrapper{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-container{
+  padding: 1rem;
+}
+
+.searchbar{
+  font-weight: bold;
+  border: 1px solid green;
+  background-color: white;
 }

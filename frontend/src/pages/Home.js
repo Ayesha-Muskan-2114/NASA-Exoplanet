@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
+import CardListContainer from "../components/CardListContainer";
 import { exoplanets } from '../components/exoplanets';
 import "./styles/Home.css";
 
@@ -33,7 +34,8 @@ class Home extends Component {
                     <h4>Studying exoplanets helps us understand more about the universe and our place in it. By examining these distant worlds, scientists can learn about planet formation, the potential for life on other planets, and the variety of planetary systems that exist. Exoplanet research can also enhance our knowledge of Earth and the conditions that make it unique.</h4>
                 </div>
                 <SearchBox searchChange={this.onSearchChange} />
-                <CardList exoplanets={filteredexoplanets} />
+                <CardListContainer cardList= { <CardList exoplanets={filteredexoplanets} /> } />
+        
 
                 {/* Research Challenge Section */}
                 <section className="research-challenge">

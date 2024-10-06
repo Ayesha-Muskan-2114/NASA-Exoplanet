@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import "./styles/StoryTelling.css";
 
-function App() {
+function StoryTelling() {
   const [hoveredProfile, setHoveredProfile] = useState(null);
 
   useEffect(() => {
@@ -19,25 +19,25 @@ function App() {
   const profilesData = [
     {
       name: "Dr. Michel Mayor",
-      img: "Michel_Mayor.jpg",
+      img: "images/Michel_Mayor.jpg",
       fact: "Fun Fact: This discovery was the first evidence of an exoplanet orbiting a sun-like star!",
       description: "In 1995, Dr. Michel Mayor and his dedicated team reshaped our understanding of the cosmos by discovering 51 Pegasi b, the first exoplanet orbiting a sun-like star, using the technique of radial velocity."
     },
     {
       name: "Dr. Didier Queloz",
-      img: "Queloz.jpg",
+      img: "images/Queloz.jpg",
       fact: "Fun Fact: They shared the Nobel Prize in Physics in 2019 for their work.",
       description: "Alongside Dr. Mayor, Dr. Didier Queloz shared the excitement of discovering a new planet that challenged existing theories of planetary formation, earning them a joint Nobel Prize in Physics in 2019."
     },
     {
       name: "Dr. Sara Seager",
-      img: "Sara_Seager.jpg",
+      img: "images/Sara_Seager.jpg",
       fact: "Fun Fact: She has a popular TED talk on the search for life on other planets.",
       description: "Dr. Sara Seager dedicated her career to studying exoplanets and searching for potentially habitable worlds, making crucial contributions to understanding exoplanet atmospheres."
     },
     {
       name: "Dr. Natalie Batalha",
-      img: "Natalie_Batalha.jpg",
+      img: "images/Natalie_Batalha.jpg",
       fact: "Fun Fact: The Kepler mission discovered over 2,600 exoplanets!",
       description: "As a leader of the Kepler mission, Dr. Natalie Batalha played a pivotal role in discovering thousands of exoplanets, inspiring many to explore new horizons beyond Earth."
     },
@@ -108,4 +108,4 @@ function App() {
   );
 }
 
-export default App;
+export default StoryTelling;
