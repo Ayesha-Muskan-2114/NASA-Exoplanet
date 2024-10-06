@@ -1,42 +1,36 @@
 import { NavLink } from "react-router-dom";
 import "../pages/styles/AppNavBar.css"; // Make sure you create this file for styles
 
+const links = [
+  {
+    value: "Home",
+    link: "/"
+  },
+  {
+    value: "Quiz",
+    link: "/quiz/start"
+  },
+  {
+    value: "Storytelling",
+    link: "/storytelling"
+  },
+  {
+    value: "Game",
+    link: "/game"
+  },
+  {
+    value: "Draw",
+    link: "/draw"
+  },
+];
+
 export default function AppNavbar() {
   return (
     <nav className="navbar">
       <ul className="navbar-links">
-        <li>
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/quiz/start"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            Quiz
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/storytelling"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            Storytelling
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/game"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            Game
-          </NavLink>
-        </li>
+        { links.map((val, i) => <NavLink key= {i} 
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to= {val.link} >{val.value} </NavLink>) }
       </ul>
     </nav>
   );
