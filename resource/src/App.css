@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: #1f1f3b;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  background-image: url('../public/background.jpg');
+}
+
+.App-header {
+  background-color: #141428;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.App-footer {
+  padding: 20px;
+  background-color: #141428;
+  color: #ffcc00;
+}
