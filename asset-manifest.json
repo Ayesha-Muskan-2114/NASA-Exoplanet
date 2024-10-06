@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NASA-Exoplanet/static/css/main.2cfed61e.css",
+    "main.js": "/NASA-Exoplanet/static/js/main.f5c13821.js",
+    "static/js/453.8ab44547.chunk.js": "/NASA-Exoplanet/static/js/453.8ab44547.chunk.js",
+    "static/media/startquizbg.png": "/NASA-Exoplanet/static/media/startquizbg.1bfd4ae36165daffe5e3.png",
+    "static/media/quizbg.jpg": "/NASA-Exoplanet/static/media/quizbg.18ce04787ff15b6920f9.jpg",
+    "static/media/Helvetica Neue LT Std 83 Heavy Extended.otf": "/NASA-Exoplanet/static/media/Helvetica Neue LT Std 83 Heavy Extended.54f93bbb212947b98b83.otf",
+    "static/media/TS BLOCK BOLD.TTF": "/NASA-Exoplanet/static/media/TS BLOCK BOLD.9c11f002a4c173b8fa39.TTF",
+    "static/media/TYPE JUICE - UNISON PRO BOLD.OTF": "/NASA-Exoplanet/static/media/TYPE JUICE - UNISON PRO BOLD.51ad4845df6ad02b161c.OTF",
+    "static/media/AeonikTRIAL-Bold.otf": "/NASA-Exoplanet/static/media/AeonikTRIAL-Bold.bb271c04181fa945fbbe.otf",
+    "static/media/AeonikTRIAL-Light.otf": "/NASA-Exoplanet/static/media/AeonikTRIAL-Light.009c9821ae675a01f868.otf",
+    "static/media/AeonikTRIAL-Regular.otf": "/NASA-Exoplanet/static/media/AeonikTRIAL-Regular.f252af9282d8460f6582.otf",
+    "index.html": "/NASA-Exoplanet/index.html",
+    "main.2cfed61e.css.map": "/NASA-Exoplanet/static/css/main.2cfed61e.css.map",
+    "main.f5c13821.js.map": "/NASA-Exoplanet/static/js/main.f5c13821.js.map",
+    "453.8ab44547.chunk.js.map": "/NASA-Exoplanet/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cfed61e.css",
+    "static/js/main.f5c13821.js"
+  ]
+}
