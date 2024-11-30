@@ -31,5 +31,14 @@
 }
 
 html, body{
+  font-family: "aeonik", sans-serif;
+  background-color: black;
+  width: 100%;
   overflow-x: hidden;
+  color: #eaeaea;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
 }
